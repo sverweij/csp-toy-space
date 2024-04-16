@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>thing</title>
+        <style>
+            p {
+                color: blueviolet;
+            }
+        </style>
+        <link rel="stylesheet" href="./styles.css" id="bw-stylesheet" />
+        <script defer type="text/javascript" src="https://www.static-af.com/assets/cookie-banner/cookie-banner.js"></script>
+        <meta name="cookie-banner-brand" content="AF" />
+        <meta name="cookie-banner-language" content="fr" />
+        <meta name="cookie-banner-country" content="fr" />
+    </head>
+    <body>
+        <h1>
+            Hello
+        </h1>
+        <p>Any string in this file has a color. If it doesn't have one, a stylesheet hasn't loaded</p>
+        <p id="content-set-by-inline-javascript">ERROR: content to be set bin inline javascript wasn't updated </p>
+        <p id="content-set-by-self-javascript">ERROR: content to be set by own javascript wasn't updated</p>
+        <img src="./picture.jpg">
+        <script>
+            document.getElementById("content-set-by-inline-javascript").innerHTML = "OK: Content set by inline javascript"
+        </script>
+        <p>Picture of an airplane (black, likely): <img src="https://www.static-kl.com/assets/components/33.0.0/kl/icon/flight.svg"></p>
+        <script src="script.js"></script>
+    </body>
+</html>

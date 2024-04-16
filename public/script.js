@@ -1,0 +1,1 @@
+document.getElementById("content-set-by-self-javascript").innerHTML = "OK: Content set by javascript from script.js"
